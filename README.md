@@ -1,2 +1,9 @@
 # focus_stacking
-stack photos with different focus
+A python project for stacking photos captured with different focus
+
+##Usage
+1. Modify the parameters in the `config.py` file
+2. `$ python focus_stacking.py`
+
+##Example
+![](https://github.com/rKRdg/focus_stacking/raw/master/Logo/foryou.gif)
