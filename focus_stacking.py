@@ -27,7 +27,7 @@ def align_image(image1,image2):
 
 	good = []
 	for m, n in matches:
-		if m.distance < 0.7 * n.distance:
+		if m.distance < config.ALIGNMENT_DISTANCE * n.distance:
 			good.append(m)
 
 
